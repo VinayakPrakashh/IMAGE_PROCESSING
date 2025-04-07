@@ -4,7 +4,7 @@ from sklearn.linear_model import Perceptron
 import matplotlib.pyplot as plt
 
 # Load and resize grayscale image
-img = cv2.imread('D:/cameraman.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('D:/Untitled-1.jpg', cv2.IMREAD_GRAYSCALE)
 img = cv2.resize(img, (256, 256))
 
 # Sobel edge detection for generating labels
